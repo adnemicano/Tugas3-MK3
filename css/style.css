@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Handjet&family=Josefin+Sans&family=Vina+Sans&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* css pada tag menggunakan nama tag*/
+h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid green;
+    padding-bottom: 1rem;
+}
+
+/* css pada class menggunakan .(nama class) */
+.belajar {
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+}
+
+/* css pada id menggunakan #(nama id) */
+#judulnya {
+    color: darkgreen;
+    text-align: center;
+    border: 2px solid greenyellow;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+/* selector image */
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid darkolivegreen;
+    display: block;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* multiple class selector */
+.A, .B, .C {
+
+    color: darkgreen;
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: lightgreen;
+}
+
+.button:active {
+    background-color: seagreen;
+    box-shadow: 0 2px lightgray;
+}
+
+.btn {
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+
+    /* supaya cursor berubah menjadi tunjuk */
+    cursor: pointer;
+}
+
+/* saat cursor diarahkan maka akan berubah stylenya */
+.btn:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+/* saat cursor diclick berubah stylenya */
+.btn:active {
+    background-color: seagreen;
+    color: white;
+}
+
+table {
+    margin-top: 4rem;
+    border: 2px solid lightgreen;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+}
+
+table tr th {
+    border: 2px solid lightgreen;
+    padding: 0.5rem;
+}
+
+table tr th:hover {
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+
+}
+
+table tr td {
+    border: 2px solid lightgreen;
+    padding: 0.5rem;
+}
+
+table tr td:hover {
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+}
+
+/* 
+    memberikan style pada elemen yang sama,
+    2n menggambarkan 2 baris ganti style
+*/
+table tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+/* 
+        memberikan style pada elemen pertama
+        menggunakan tr supaya semua first child
+        pada tr yang diberi css. first child tr adalah th.
+*/
+table tr:first-child {
+    background-color: greenyellow;
+    width: 50px;
+}
+
+/* 
+        memberikan style pada elemen pertama
+        menggunakan td supaya semua first child
+        pada td yang diberi css. first child td
+        adalah kolom nama
+*/
+table td:first-child {
+    background-color: lightcyan;
+}
+
+
